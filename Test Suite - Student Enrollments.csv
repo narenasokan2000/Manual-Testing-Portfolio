@@ -1,0 +1,17 @@
+URL,https://demoqa.com/automation-practice-form,,
+Test Case ID,Test Scenario,Test Steps,Expected Result
+FORM_01,Verify user can enter valid first name,Enter alphabets in First Name field,Input should be accepted
+FORM_02,Verify invalid input in name field,Enter numbers or special characters in First Name field,System should display validation error
+FORM_03,Verify valid email ID,"Enter valid email (e.g., abc@gmail.com)",Email should be accepted
+FORM_04,Verify invalid email ID,"Enter invalid email (e.g., abc@)",System should display validation error
+FORM_05,Verify gender selection,Click Male/Female/Other option,Only one option should be selected
+FORM_06,Verify valid mobile number,Enter 10-digit mobile number,Input should be accepted
+FORM_07,Verify invalid mobile number,Enter less than or more than 10 digits,System should display validation error
+FORM_08,Verify date of birth selection,1. Click DOB field 2. Select a date,Selected date should be displayed correctly
+FORM_09,Verify invalid DOB selection,Select future date,System should restrict selection or show validation error
+FORM_10,Verify subject field input,Type subject name,Suggestions should be displayed
+FORM_11,Verify subject selection from suggestions,Select subject from dropdown suggestions,Selected subject should be added
+FORM_12,Verify hobbies selection,Select multiple checkboxes,Multiple options should be selected
+FORM_13,Verify file upload functionality,Upload valid image/file,File should be uploaded successfully
+FORM_14,Verify address field input,Enter text in address field,Text should be accepted
+FORM_15,Verify state and city dropdown,1. Select state 2. Select city,Selected values should be displayed
