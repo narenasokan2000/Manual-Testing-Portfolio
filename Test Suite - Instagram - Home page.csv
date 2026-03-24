@@ -1,0 +1,17 @@
+URL,https://www.instagram.com/accounts/login/,,,
+Test Case ID,Test Scenario,Test Data,Test Steps,Expected Result
+WEB_PAGE_01,Verify home page load with valid login,Username: Narenasokan22 Password: Password12@,1. Open Instagram app/website 2. Login with valid credentials,Home page should load successfully without any errors
+WEB_PAGE_02,Verify login with invalid credentials,Invalid username/password,1. Enter invalid username or password 2. Click Login,System should display a proper error message
+WEB_PAGE_03,Verify feed content display,Valid login credentials,1. Login with valid credentials 2. Navigate to home page,Images and videos should be displayed properly
+WEB_PAGE_04,Verify user can like a post,N/A,1. Click the like icon (❤️) or double-tap on a post,Post should be liked and the icon should turn red
+WEB_PAGE_05,Verify user can comment on a post,Comment text or emoji,1. Click the comment icon 2. Enter text or emoji 3. Post the comment,Comment should be added successfully
+WEB_PAGE_06,Verify infinite scroll (feed loading),N/A,1. Scroll down the home page continuously,New posts should load automatically
+WEB_PAGE_07,Verify share functionality,N/A,1. Click the share icon on a post,Share options should be displayed
+WEB_PAGE_08,Verify user can save a post,N/A,1. Click the save icon,Post should be saved to the user account
+WEB_PAGE_09,Verify stories display at top,N/A,1. Open home page,Stories should be displayed horizontally at the top
+WEB_PAGE_10,Verify user can view a story,N/A,1. Click on any story,Story (image/video) should open and play
+WEB_PAGE_11,Verify navigation bar functionality,N/A,"1. Open home page 2. Click on navigation icons (Home, Search, Reels, Profile)",User should navigate to the respective pages
+WEB_PAGE_12,Verify network error handling,N/A,1. Turn off internet connection 2. Refresh the page,Error message or retry option should be displayed
+WEB_PAGE_13,Verify video auto-play,N/A,1. Scroll to a video post,Video should play automatically
+WEB_PAGE_14,Verify UI responsiveness,N/A,1. Open app on mobile and web 2. Resize the screen,UI should adjust properly without layout issues
+WEB_PAGE_15,Verify user can unlike a post,N/A,1. Click the liked icon again,Like should be removed and icon should revert to original state
